@@ -1,21 +1,21 @@
 # R-shiny apps push on heroku
 
 Following the steps to push your R-shiny apps on Heroku:
-heroku login
-cd your project
-heroku git:remote your app name on heroku
-git init
-heroku create --buildpack https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16
-git push heroku master
-heroku open
+1. heroku login
+2. cd  your project
+3. heroku git:remote your app name on heroku
+4. git init
+5. heroku create --buildpack https://github.com/virtualstaticvoid/heroku-buildpack-r.git#heroku-16
+6. git push heroku master
+7. heroku open
 
 update your project
 
-cd your project
-heroku git:remote your app name on heroku
-git init
-git push heroku master
-heroku open
+1. cd your project
+2. heroku git:remote your app name on heroku
+3. git init
+4. git push heroku master
+5. heroku open
 
 References:
 1. https://github.com/virtualstaticvoid/heroku-buildpack-r/tree/heroku-16
